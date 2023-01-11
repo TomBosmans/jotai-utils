@@ -1,0 +1,44 @@
+{
+  "name": "@tbosmans/jotai-utils",
+  "version": "0.0.1",
+  "description": "Utils for jotai.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint --fix",
+    "lint:check": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TomBosmans/jotai-utils.git"
+  },
+  "keywords": [
+    "jotai",
+    "typescript",
+    "atoms",
+    "utils",
+    "react"
+  ],
+  "author": "Tom Bosmans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomBosmans/jotai-utils/issues"
+  },
+  "homepage": "https://github.com/TomBosmans/jotai-utils#readme",
+  "devDependencies": {
+    "@tbosmans/eslint-config": "^1.0.3",
+    "@types/jest": "^29.2.5",
+    "@types/react": "^18.0.26",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "jotai": "^1.13.0",
+    "react": "^18.2.0"
+  },
+  "prettier": "@tbosmans/eslint-config/prettierrc"
+}
